@@ -1,5 +1,5 @@
 # Java  TreeList
-This TreeList class is an AVL Tree-based implementation of a height-balanced Binary Tree. Insertion of duplicates are supported, as is index access for retreival, but deletion and insertion are based on the natural ordering of the elements. 
+This TreeList class is an AVL Tree-based implementation of a height-balanced Binary Tree, allowing for O(log(n)) insertion, deletion, and contains. Insertion of duplicates are supported, as is index access for retreival, but deletion and insertion are based on the natural ordering of the elements. 
 
 This class extends AbstractCollection, meaning it implements a subset of the Java Collections API. The methods it implements are as follows:
 * boolean add(E e)
